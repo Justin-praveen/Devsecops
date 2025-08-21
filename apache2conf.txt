@@ -61,6 +61,16 @@ sudo certbot -d sitename.com
 
 1.once a site have ssl conf file in site-availables
 2.Add the Below lines in sitename.ssl.conf file in Below DocumentRoot /var/www/html
+
+
+{--------------------------------------Stat--------------------------------------}
+
+if this is new machine need to enable 
+
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+
+{----------------------------------END--------------------------------------------}
  
 
 {--------------------------------------------START-----------------------------------}
